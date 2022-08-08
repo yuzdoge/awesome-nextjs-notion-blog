@@ -33,9 +33,11 @@ module.exports = {
   // NOTE: this requires you to set up an external image proxy
   imageCDNHost: null,
 
+/*
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: 'yuzdoge/awesome-nextjs-notion-blog',
   utterancesGitHubLabel: '博客评论',
+*/
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
@@ -49,6 +51,7 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
+  /*
   pageUrlOverrides: {
     '/os': 'ff8a4877c04f42eda0d050547c117ea5',
     '/os-introduction': '68390e1112d749debb748387a82ebd9f',
@@ -76,3 +79,4 @@ module.exports = {
     '651765de-6a0f-4a72-9f91-86f26381aef3'
   ]
 }
+*/
