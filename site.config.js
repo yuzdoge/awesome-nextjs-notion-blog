@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'RISCV-db392d1003d542bb81f693011e16afb4',
+  rootNotionPageId: 'Hello-World-22c2fe53778d4d43a04a29d8e7b5d619',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -33,16 +33,14 @@ module.exports = {
   // NOTE: this requires you to set up an external image proxy
   imageCDNHost: null,
 
-/*
   // Utteranc.es comments via GitHub issue comments (optional)
   utterancesGitHubRepo: 'yuzdoge/awesome-nextjs-notion-blog',
   utterancesGitHubLabel: '博客评论',
-*/
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   // set null to remove from year
   copyRightFromYear: 2019,
@@ -51,7 +49,6 @@ module.exports = {
   // any pages defined here will override their default URL paths
   // example:
   //
-  /*
   pageUrlOverrides: {
     '/os': 'ff8a4877c04f42eda0d050547c117ea5',
     '/os-introduction': '68390e1112d749debb748387a82ebd9f',
@@ -73,10 +70,10 @@ module.exports = {
     '/post-list': '651765de6a0f4a729f9186f26381aef3',
     '/one-year-review': 'c6461186bea149eb9a83c0d7284f2921',
   },
+
   showPageAsideSocials: true,
   footCounterList: [
     '6a76fdd9ec6d4ae2855aa790d620eec4',
     '651765de-6a0f-4a72-9f91-86f26381aef3'
   ]
 }
-*/
