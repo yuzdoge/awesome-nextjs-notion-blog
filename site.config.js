@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'AIoT',
-  domain: 'https://awesome-nextjs-notion-blog-ps7okpu5t-yuzdoge.vercel.app/',
+  domain: 'https://awesome-nextjs-notion-blog-navy.vercel.app/',
   author: 'yuzdoge',
 
   // open graph metadata (optional)
